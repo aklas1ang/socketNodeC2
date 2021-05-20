@@ -1,0 +1,20 @@
+{
+  "name": "nodesocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expect": "^26.6.2",
+    "express": "^4.17.1",
+    "mocha": "^8.4.0",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.2"
+  }
+}
